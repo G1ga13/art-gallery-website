@@ -13,7 +13,21 @@ body {
   flex-direction: column;
 }
 
+.button_box {
+  display: flex;
+  position: absolute;
+  left: 39px;
+}
+
+.locator {
+  width: 56px;
+  height: 72px;
+  background-color: rgba(213, 150, 108, 1);
+  border: none;
+}
+
 header {
+  position: relative;
   max-width: 1440px;
   height: 600px;
 }
@@ -149,4 +163,17 @@ p {
 .icon {
   width: 20px;
   height: 20px;
+}
+
+.link {
+  width: 204px;
+  height: 72px;
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 3.64px;
+  background-color: rgba(21, 21, 21, 1);
+  color: white;
+  border: none;
 }

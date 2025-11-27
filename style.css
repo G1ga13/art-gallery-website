@@ -82,6 +82,11 @@ span {
   border: none;
 }
 
+.link:hover {
+  background-color: rgba(213, 150, 108, 1);
+  cursor: pointer;
+}
+
 .button_box {
   display: flex;
 }
@@ -91,6 +96,11 @@ span {
   height: 72px;
   background-color: rgba(213, 150, 108, 1);
   border: none;
+}
+
+.locator:hover {
+  background-color: rgba(21, 21, 21, 1);
+  cursor: pointer;
 }
 
 .box_2 {
@@ -210,7 +220,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1440px;
+  max-width: 1440px;
   height: 244px;
   margin-top: 180px;
   background-color: #151515;
@@ -258,4 +268,8 @@ span {
 .icon {
   width: 20px;
   height: 20px;
+}
+
+.icon:hover {
+  cursor: pointer;
 }
