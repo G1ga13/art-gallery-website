@@ -268,8 +268,20 @@ span {
 .icon {
   width: 20px;
   height: 20px;
+  filter: brightness(0) invert(1);
+  transition: 0.3s;
 }
 
 .icon:hover {
   cursor: pointer;
+  filter: invert(63%) sepia(100%) saturate(500%) hue-rotate(341deg)
+    brightness(100%) contrast(70%);
+}
+
+.button_box:hover .link {
+  background-color: rgba(213, 150, 108, 1);
+}
+
+.button_box:hover .locator {
+  background-color: black;
 }
