@@ -7,27 +7,26 @@
 }
 
 .box {
+  position: relative;
   display: flex;
   max-width: 1275px;
   height: 800px;
-  position: relative;
 }
 
 .black_box {
   width: 450px;
   height: 800px;
-  background-color: black;
+  background: rgba(21, 21, 21, 1);
 }
 
 .first_painting {
   max-width: 540px;
   height: 800px;
-  left: 450px;
 }
 
 .header {
-  display: flex;
   position: absolute;
+  display: flex;
   justify-content: space-between;
   width: 1075px;
   left: 200px;
