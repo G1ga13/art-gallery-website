@@ -31,9 +31,11 @@
   position: absolute;
   display: flex;
   justify-content: space-between;
-  width: 1075px;
+  max-width: 1075px;
+  width: 100%;
   left: 200px;
   top: 200px;
+  border: 1px solid red;
 }
 
 .header_text {
